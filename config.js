@@ -27,26 +27,6 @@ const config = {
         'Services',
         'French'
       ]
-    },
-    {
-      type: 'checkbox',
-      title: 'Devices Available: ',
-      columnHeader: 'Devices_available',
-      listItems: ['Computer', 'Wi-Fi', 'Adaptive Laptops']
-    },
-    {
-      type: 'dropdown',
-      title: 'Title of filter: ',
-      columnHeader: 'Column Name',
-      listItems: [
-        'filter one',
-        'filter two',
-        'filter three',
-        'filter four',
-        'filter five',
-        'filter six',
-        'filter seven'
-      ]
     }
   ]
 
