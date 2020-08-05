@@ -1,5 +1,5 @@
 const config = {
-  style: 'mapbox://styles/seiha-men/ckbjz42s907121iujmgx5zchw',
+  style: 'mapbox://styles/seiha-men/ckcv43tkn03ld1irxp9uqghpw',
   accessToken: 'pk.eyJ1Ijoic2VpaGEtbWVuIiwiYSI6ImNrYWhleDBsaDAxM2UyeG80OHc1emp6bXIifQ.R0aJpShr0KmWvJDcEYab5Q',
   CSV: 'https://docs.google.com/spreadsheets/d/1GLWqvoaBXHYIPWJZ52Co8MuFRMtdIsvU9BZZuLVsmH0/gviz/tq?tqx=out:csv&sheet=Sheet1',
   center: [-75.701, 45.421], // Lng, Lat
