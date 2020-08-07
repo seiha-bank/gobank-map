@@ -24,10 +24,9 @@ const config = {
         'Restaurants',
         'Food & Drink',
         'Food',
-        'Services',
-        'French'
+        'Services'
       ]
     }
   ]
 
-}
+};
