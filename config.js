@@ -8,7 +8,7 @@ const config = {
   description: 'Explore our wonderful shops and enjoy what the neighborhood has to offer.',
   sideBarInfo: ['Name', 'Address', 'Hours'],
   popupInfo: ['Name'],
-  popupDescription: ['Website'],
+  popupDescription: ['Phone'],
   filters: [
     {
       type: 'dropdown',
