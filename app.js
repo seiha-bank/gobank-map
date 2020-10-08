@@ -27,7 +27,7 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML("<h3>" + currentFeature.properties[config.popupInfo] +  "</h3>")
+    .setHTML("<h3>" + currentFeature.properties[config.popupInfo] + "</h3>" + "<p>" + currentFeature.properties[config.popupDescription] + "</p>") 
     .addTo(map);
 }
 
@@ -351,7 +351,7 @@ const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
   mapboxgl: mapboxgl, // Set the mapbox-gl instance
   marker: true, // Use the geocoder's default marker style
-  zoom: 12
+  zoom: 17
 });
 
 function sortByDistance(selectedPoint) {
