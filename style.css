@@ -78,7 +78,7 @@
     font-weight: bold;
     text-align: center;
     padding: 5;
-    width: 180px;
+    width: 250px;
   }
 
 .mapboxgl-popup-close-button {
@@ -86,9 +86,18 @@
   }
 
 .mapboxgl-popup-content h3 {
-    color:black;
+    background: rgb(20, 83, 12);
+    color:rgb(247, 247, 247);
     font-weight: bold;
     margin: 0;
+    padding: 8px;
     display: block;
+
+  }
+
+.mapboxgl-popup-content p {
+    margin: 0;
+    display: block;
+    padding: 10px 10px 0px 0px;
 
   }
